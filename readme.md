@@ -2,11 +2,11 @@
 
 Site bem básico desenvolvido com Laravel para consulta de NFe a partir da **chave de acesso**.
 
-## API 1.0 [CAPTCHA]
+# API 1.0 [CAPTCHA]
 
 Fornecido pelo site oficialdo [DANFE](https://danfe.br.com/desenvolvedores/).
 
-# Procedimento
+### Procedimento
 
 Obtenha a API_KEY no site do [DANFE](https://danfe.br.com/desenvolvedores/).
 
@@ -20,9 +20,10 @@ $chaveAcesso = 'SUA_CHAVE_AQUI'; // Chave de acesso da NFe que está tentando ob
 $API_KEY = 'SUA_API_KEY';
 ```
 
-# SiteController
+### SiteController
 
-A função getCaptcha() recebe a chave da NFe como argumento, a função receberá uma `KEY` através da requisição que é responsável pela recuperação do captcha.
+A função `getCaptcha()` recebe a chave da NFe como argumento, a função receberá uma `KEY` através da requisição que é responsável pela recuperação do captcha.
+
 Tendo agora `API_KEY`, `KEY` e `CHAVE_DE_ACESSO`, solicitamos a imagem do captcha, que é renderizada para o usuário em `templete.blade.php`.
 
 Se o captcha estiver correto é possível visualizar o arquivo XML no console.
