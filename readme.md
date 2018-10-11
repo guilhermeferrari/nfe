@@ -8,7 +8,7 @@ Fornecido pelo site oficial do [DANFE](https://danfe.br.com/desenvolvedores/).
 
 ### Procedimento
 
-Obtenha a API_KEY no site do [DANFE](https://danfe.br.com/desenvolvedores/).
+[Obtenha](https://danfe.br.com/desenvolvedores/) a API_KEY.
 
 Dentro de `app/Http/Controllers/Site`, criar o arquivo `vars.php`, que ficará da seguinte forma:
 
