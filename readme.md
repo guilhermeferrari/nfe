@@ -4,7 +4,7 @@ Site bem básico desenvolvido com Laravel para consulta de NFe a partir da **cha
 
 # API 1.0 [CAPTCHA]
 
-Fornecido pelo site oficialdo [DANFE](https://danfe.br.com/desenvolvedores/).
+Fornecido pelo site oficial do [DANFE](https://danfe.br.com/desenvolvedores/).
 
 ### Procedimento
 
